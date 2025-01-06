@@ -1,0 +1,20 @@
+body {
+  margin: 0px 0px;
+}
+
+.box {
+  width: 200px;
+  border: 50px solid #e74c3c;
+  padding: 50px;
+  margin: 20px;
+}
+
+.green {
+  border: 50px solid #27ae60;
+  visibility: hidden;
+  /* display: none; */
+}
+
+.blue {
+  border: 50px solid #3498db;
+}
