@@ -1,0 +1,31 @@
+body {
+  padding-left: 10%;
+}
+
+h1 {
+  color: #9b59b6;
+}
+
+p {
+  font-size: 16px;
+  font-family: "Verdana", serif;
+  font-style: italic;
+}
+
+p::first-letter {
+  font-size: 200%;
+  color: #2980b9;
+  font-weight: bold;
+}
+
+h1::before {
+  content: "Topic : ";
+}
+
+h1:first-child {
+  text-align: center;
+}
+
+.sub-header {
+  color: #2980b9;
+}
