@@ -83,7 +83,7 @@ body {
 }
 
 .second-line {
-  padding: 15px 30px;
+  padding: 15px 15px;
   font-size: 15px;
   color: rgba(0, 0, 0, 0.54);
 }
@@ -93,9 +93,14 @@ body {
 }
 
 .second-line-style {
-  text-decoration: none;
+  /* text-decoration: none;*/
   color: #1f1f1f;
-
+  text-decoration: none;
   font-size: 14px;
   font-family: Arial, Apple SD Gothic Neo, sans-serif;
+  padding: 15px;
+}
+
+.second-line-style:hover {
+  text-decoration: underline;
 }
