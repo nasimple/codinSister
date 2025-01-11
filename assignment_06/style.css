@@ -1,0 +1,104 @@
+.mother {
+  display: flex;
+  justify-content: space-between;
+}
+
+.mother2 {
+  display: flex;
+}
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: black;
+  color: white;
+}
+
+.mar-5 {
+  margin-right: 5px;
+}
+
+.j_start {
+  display: flex;
+}
+
+.j_center {
+  display: flex;
+  justify-content: center;
+}
+
+.j_end {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.main2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.box-center {
+  align-self: center;
+}
+.box-end {
+  align-self: flex-end;
+}
+
+.main3 {
+  display: flex;
+  justify-content: center;
+}
+
+.box-big {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  color: white;
+  position: relative;
+}
+
+.box-position {
+  position: absolute;
+  left: 50px;
+  top: 50px;
+}
+
+.rel {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  left: 50px;
+  top: -50px;
+  background-color: red;
+}
+
+.box-big5 {
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  width: 500px;
+  height: 200px;
+  background-color: purple;
+  color: white;
+}
+
+.box5Top {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  width: 100px;
+  height: 100px;
+  background-color: black;
+  color: white;
+}
+
+.box5Bottom {
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  justify-content: flex-end;
+  flex-direction: column-reverse;
+  width: 100px;
+  height: 100px;
+  background-color: black;
+  color: white;
+}
